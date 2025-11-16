@@ -7,9 +7,34 @@ img {
   height: 100px;
 }
 
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
 .title {
   font-size: 36px;
   font-weight: 900;
+  align-self: center;
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.images .barberry,
+.images .chilli,
+.images .pepper,
+.images .saffron {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 16px;
+  width: 200px;
 }
 
 /* do not edit this footer */
